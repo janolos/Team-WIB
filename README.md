@@ -9,4 +9,7 @@ Workflow:
 6. Uploaded updated 2020 ABS Business Data Jupyter Notebook includes chi-squares, correlation matrix, dependent t-test. ~JN
 7. Uploaded 2018 & 2019 ABS Business Data Jupyter Notebooks ~ NB
 8. Uploaded MANOVA 2020 ABS analysis; not completed. ~JN
-9. Which industries have the most women owned businesses? 
+9. Uploaded updated version of 2020 ABS Business Data Jupyter Notebook ~JN
+
+Determine:
+Which industries have the most women owned businesses? 
