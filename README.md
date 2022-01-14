@@ -6,4 +6,6 @@ Workflow:
 3. Upload 2020 ABS Business Data Jupyter Notebook ~JN
 4. Added Lani & Noelle as collaborators to the repo ~JN
 5. Uploaded the Google Drive folders to the repo ~JN
-6. Uploaded updated 2020 ABS Business Data Jupyter Notebook includes chi-squares, correlation matrix, dependent t-test.
+6. Uploaded updated 2020 ABS Business Data Jupyter Notebook includes chi-squares, correlation matrix, dependent t-test. ~JN
+7. Uploaded 2018 & 2019 ABS Business Data Jupyter Notebooks ~ NB
+8. Uploaded MANOVA 2020 ABS analysis; not completed. ~JN
