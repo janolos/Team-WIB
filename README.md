@@ -16,7 +16,7 @@ Workflow:
 13. Uploaded filtered 2020 Female-Owned Data specifying sectors ~JN
 
 Determine: Which industries have the most women owned businesses?
-Top 5 industry sectors in 2020:
+# Top 5 industry sectors in 2020:
 1. Professional, Scientific, and Technical Services
 2. Health Care and Social Assistance
 3. Accomodation and Food Services
