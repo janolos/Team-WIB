@@ -13,6 +13,12 @@ Workflow:
 10. Uploaded a completed MANOVA analysis focusing on only female-owned businesses. ~JN
 11. Uploaded a 2020 Female-Owned ABS Data Jupyter Notebook ~JN
 12. Uploaded NAICS Codes ~NB
+13. Uploaded filtered 2020 Female-Owned Data specifying sectors ~JN
 
-Determine:
-Which industries have the most women owned businesses? 
+Determine: Which industries have the most women owned businesses?
+Top 5 industry sectors in 2020:
+1. Professional, Scientific, and Technical Services
+2. Health Care and Social Assistance
+3. Accomodation and Food Services
+4. Manufacturing 
+5. Transportation and Warehousing 
