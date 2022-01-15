@@ -11,7 +11,8 @@ Workflow:
 8. Uploaded MANOVA 2020 ABS analysis; not completed. ~JN
 9. Uploaded updated version of 2020 ABS Business Data Jupyter Notebook ~JN
 10. Uploaded a completed MANOVA analysis focusing on only female-owned businesses. ~JN
-11. Uploaded a 2020 Female-Owned ABS Data Jupyter Notebook
+11. Uploaded a 2020 Female-Owned ABS Data Jupyter Notebook ~JN
+12. Uploaded NAICS Codes ~NB
 
 Determine:
 Which industries have the most women owned businesses? 
