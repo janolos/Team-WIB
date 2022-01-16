@@ -11,9 +11,11 @@ Workflow:
 8. Uploaded MANOVA 2020 ABS analysis; not completed. ~JN
 9. Uploaded updated version of 2020 ABS Business Data Jupyter Notebook ~JN
 10. Uploaded a completed MANOVA analysis focusing on only female-owned businesses. ~JN
-11. Uploaded a 2020 Female-Owned ABS Data Jupyter Notebook ~JN
-12. Uploaded NAICS Codes ~NB
-13. Uploaded filtered 2020 Female-Owned Data specifying sectors ~JN
+11. Uploaded a completed MANOVA analysis focusing on only female-owned businesses for 2019 ~NB
+12. Uploaded a 2020 Female-Owned ABS Data Jupyter Notebook ~JN
+13. Uploaded NAICS Codes ~NB
+14. Uploaded filtered 2020 Female-Owned Data specifying sectors ~JN
+15. Uploadaed Tableau files showing businesses by gnder and industry ~ NB
 
 Determine: Which industries have the most women owned businesses?
 # Top 5 industry sectors in 2020:
