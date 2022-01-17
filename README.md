@@ -16,6 +16,8 @@ Workflow:
 13. Uploaded NAICS Codes ~NB
 14. Uploaded filtered 2020 Female-Owned Data specifying sectors ~JN
 15. Uploadaed Tableau files showing businesses by gnder and industry ~ NB
+16. Organized 2020 files into 2020(2019) Business Data folder.
+17. Uploaded 2018 MANOVA analysis ~JN 
 
 Determine: Which industries have the most women owned businesses?
 # Top 5 industry sectors in 2020:
