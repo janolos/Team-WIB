@@ -54,3 +54,17 @@ WB2018_F2 = na.omit(WB2018_F)
 leveneTest(WB2018_F2$SalesN, WB2018_F2$Owners_Race, data = WB2018_F2)
 leveneTest(WB2018_F2$EmployeesN, WB2018_F2$Owners_Race, data = WB2018_F2)
 #leveneTest not working because Owners_Race only has one factor: 0.0
+#Tried with Owners_Ethnicity, same issue only has one factor: 1.0
+
+#Continue to determine absence of multicollinearity
+cor.test(WB2018_F2$SalesN, WB2018_F2$EmployeesN, method="pearson", use="complete.obs")
+#With a correlation of r = 0.99, absence of multicollinearity is met.
+
+MANOVA = manova(cbind(SalesN, EmployeesN) ~ Owners_Race, data = WB2018_F2)
+summary(MANOVA)
+#There is a significant difference between number of sales and number of employees where race plays a factor; however, 
+#cannot take these results effectively since it did not meet the assumptions for MANOVA, but will look at post hocs.
+
+#Post Hocs
+summary.aov(MANOVA, test = "wilks")
+#Post Hocs reveals that there is a significant difference in both the number of sales and the number of employees by race in female-owned businesses.
