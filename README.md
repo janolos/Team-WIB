@@ -29,7 +29,7 @@ Determine: Which industries have the most women owned businesses?
 5. Transportation and Warehousing 
 
 # Top 5 industry sectors in 2019:
-1.Professional, scientific, and Technical Services
+1. Professional, scientific, and Technical Services
 2. Manufacturing
 3. Health care and social asistance
 4. Administrative and support
