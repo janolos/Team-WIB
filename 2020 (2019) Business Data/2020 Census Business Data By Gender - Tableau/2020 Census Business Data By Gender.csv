@@ -1,0 +1,61 @@
+﻿ Industry,Sex Label,Count of NAICS
+Industries not classified,Male,81
+Utilities,Male,92
+"Mining, quarrying, and oil and gas extraction",Male,103
+"Agriculture, forestry, fishing and hunting(660)",Male,102
+Management of companies and enterprises,Male,115
+Real estate and rental and leasing,Male,113
+Finance and insurance(662),Male,113
+"Arts, entertainment, and recreation",Male,112
+Educational services,Male,109
+Wholesale trade,Male,129
+Information,Male,126
+Retail trade,Male,128
+Other services (except public administration)(663),Male,118
+Construction,Male,129
+Transportation and warehousing(661),Male,128
+Administrative and support and waste management and remediation services,Male,134
+Manufacturing,Male,132
+Accommodation and food services,Male,131
+Health care and social assistance,Male,127
+"Professional, scientific, and technical services",Male,133
+Industries not classified,Female,50
+Utilities,Female,55
+"Mining, quarrying, and oil and gas extraction",Female,73
+"Agriculture, forestry, fishing and hunting(660)",Female,80
+Management of companies and enterprises,Female,81
+Real estate and rental and leasing,Female,87
+Finance and insurance(662),Female,95
+"Arts, entertainment, and recreation",Female,95
+Educational services,Female,96
+Wholesale trade,Female,99
+Information,Female,101
+Retail trade,Female,103
+Other services (except public administration)(663),Female,103
+Construction,Female,104
+Transportation and warehousing(661),Female,110
+Administrative and support and waste management and remediation services,Female,110
+Manufacturing,Female,112
+Accommodation and food services,Female,117
+Health care and social assistance,Female,121
+"Professional, scientific, and technical services",Female,122
+Industries not classified,Equally male/female,64
+Utilities,Equally male/female,52
+"Mining, quarrying, and oil and gas extraction",Equally male/female,82
+"Agriculture, forestry, fishing and hunting(660)",Equally male/female,73
+Management of companies and enterprises,Equally male/female,94
+Real estate and rental and leasing,Equally male/female,93
+Finance and insurance(662),Equally male/female,90
+"Arts, entertainment, and recreation",Equally male/female,92
+Educational services,Equally male/female,84
+Wholesale trade,Equally male/female,104
+Information,Equally male/female,99
+Retail trade,Equally male/female,110
+Other services (except public administration)(663),Equally male/female,96
+Construction,Equally male/female,108
+Transportation and warehousing(661),Equally male/female,117
+Administrative and support and waste management and remediation services,Equally male/female,114
+Manufacturing,Equally male/female,117
+Accommodation and food services,Equally male/female,121
+Health care and social assistance,Equally male/female,118
+"Professional, scientific, and technical services",Equally male/female,117
