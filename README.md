@@ -21,6 +21,7 @@ Workflow:
 18. Uploaded 2019 MANOVA Analysis ~NB
 19. Determined top 5 sectors for 2019 & 2018 ~NB
 20. Uploaded repeated ANOVA analysis ~JN
+21. Determined Top 3 Sectors for 2018-2020 ABS data ~NB
 
 Determine: Which industries have the most women owned businesses?
 # Top 5 industry sectors in 2020:
