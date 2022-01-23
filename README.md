@@ -43,3 +43,8 @@ Determine: Which industries have the most women owned businesses?
 3. Professional/Scientific/Technical Services
 4. Accommodation and Food Services
 5. Construction
+
+# Top 3 Industry Sectors Over Past Three Years
+1. Health Care And Social Assistance
+2.  Professional, Scientific, and Technical Services
+3.  Administrative and Support and Waste Management and Remediation Services 
