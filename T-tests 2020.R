@@ -26,9 +26,6 @@ df2020_2m = filter(df2020_1, Owners_Sex %in% c("003"))
 df2020_2 = rbind(df2020_2w, df2020_2m)
 View(df2020_2)
 
-#Transform into longer data:
-
-
 #Independent t-test:
 #How were sales affected in 2020 when comparing male-owned businesses vs. female-owned businesses?
 SalesM = t.test(df2020_2m$Sales2, df2020_2w$Sales2, althernative="two-sided", var.equal=FALSE)
@@ -36,3 +33,23 @@ SalesM #p-value is significant and therefore the mean differences are significan
 mean(df2020_2m$Sales2) #$468,772,666
 mean(df2020_2w$Sales2) #$88,486,354
 ggplot(df2020_2) + geom_boxplot(aes(x= Owners_Sex, y = Sales2)) + scale_y_log10()
+
+#Check linear regression in sales vs. race and/or sales vs. ethnicity:
+library(ggplot2)
+Sales_Race = ggplot(df2020, aes(x = Race, y = Sales2))
+Sales_Race + geom_point() + scale_y_log10() #no linear relationship
+Sales_Race + geom_boxplot() + scale_y_log10()
+ggplot(df2020_1, aes(Race))+geom_bar() 
+#There were more businesses that were owned by a white, Caucasian person in 2020. 
+#The second dominating race were black, African-American owners. 
+ES = ggplot(df2020, aes(x=Ethnicity, y=Sales2))
+ES + geom_point() #no linear relationship
+ES + geom_boxplot() + scale_y_log10()
+ggplot(df2020_1, aes(Ethnicity))+geom_bar()
+#Majority of businesses were non-Hispanics and the second most owned businesses were Hispanic owners. 
+
+#Check linear regressions related to male-owned vs. female-owned vs. equally male/female-owned businesses:
+SS = ggplot(df2020_1, aes(x=Owners_Sex, y = Sales2))
+SS + geom_point() #There is no linear relationship between Sales and Owners_Sex.
+SS + geom_boxplot() + scale_y_log10()
+ggplot(df2020_1, aes(Owners_Sex))+geom_bar() #There were more male-owned businesses in 2020. 
