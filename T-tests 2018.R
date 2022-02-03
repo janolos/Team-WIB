@@ -6,7 +6,7 @@ library("dplyr")
 library("car")
 library("ggplot2")
 library(readr)
-B2018 <- read_csv("C:/Users/nbroo/OneDrive/Documents/Data Science Final Group Project/Women In Business Before And After The Pandemic/2018 (2017) Census Business Data.csv")
+B2018 <- read_csv("C:/Users/nbroo/OneDrive/Documents/Data Science Final Group Project/Women In Business Before And After The Pandemic/2018 (2017) Census Business Data-2.csv")
 View(B2018)
 
 #Subset 2019 include: NAICS code, Owners sex, Sales
@@ -28,7 +28,7 @@ View(b2018_1)
 
 #Filter b2019_1 to include both male- and female-owned businesses
 b2018_1w = filter(b2018_1, Owners_Sex %in% c("2"))
-b2018_1m = filter(b2018_1, Owners_Sex %in% c("1"))
+b2018_1m = filter(b2018_1, Owners_Sex %in% c("3"))
 b2018_2 = rbind(b2018_1w, b2018_1m)
 View(b2018_2)
 
@@ -37,7 +37,7 @@ View(b2018_2)
 SalesM = t.test(b2018_1m$Sales2, b2018_1w$Sales2, althernative="two-sided", var.equal=FALSE)
 SalesM #p-value is significant and therefore the mean differences are significant
 mean(b2018_1m$Sales2) 
-#$28,235,277
+#$29,674,352
 mean(b2018_1w$Sales2) 
 #$6,282,493
 ggplot(b2018_2) + geom_boxplot(aes(x= Owners_Sex, y = Sales2)) + scale_y_log10()
@@ -47,7 +47,7 @@ ggplot(b2018_2) + geom_boxplot(aes(x= Owners_Sex, y = Sales2)) + scale_y_log10()
 Sales_Race = ggplot(b2018, aes(x = Race, y = Sales2))
 Sales_Race + geom_point() + scale_y_log10() #no linear relationship
 Sales_Race + geom_boxplot() + scale_y_log10()
-ggplot(b2019_1, aes(Race))+geom_bar() 
+ggplot(b2018_1, aes(Race))+geom_bar() 
 
 #There were more businesses that were owned by a white, Caucasian person in 2019. 
 #The second dominating race were black, African-American owners. 

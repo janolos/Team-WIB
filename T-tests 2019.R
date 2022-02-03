@@ -6,7 +6,7 @@ library("dplyr")
 library("car")
 library("ggplot2")
 library(readr)
-B2019 <- read_csv("C:/Users/nbroo/OneDrive/Documents/Data Science Final Group Project/Women In Business Before And After The Pandemic/2019 (2018) Census Business Data.csv")
+B2019 <- read_csv("C:/Users/nbroo/OneDrive/Documents/Data Science Final Group Project/Women In Business Before And After The Pandemic/2019 (2018) Census Business Data-2.csv")
 View(B2019)
 
 #Subset 2019 include: NAICS code, Owners sex, Sales
@@ -28,7 +28,7 @@ View(b2019_1)
 
 #Filter b2019_1 to include both male- and female-owned businesses
 b2019_1w = filter(b2019_1, Owners_Sex %in% c("2", 2 ))
-b2019_1m = filter(b2019_1, Owners_Sex %in% c("1", 1))
+b2019_1m = filter(b2019_1, Owners_Sex %in% c("3", 3))
 b2019_2 = rbind(b2019_1w, b2019_1m)
 View(b2019_2)
 
@@ -37,7 +37,7 @@ View(b2019_2)
 SalesM = t.test(b2019_1m$Sales2, b2019_1w$Sales2, althernative="two-sided", var.equal=FALSE)
 SalesM #p-value is significant and therefore the mean differences are significant
 mean(b2019_1m$Sales2) 
-#$947,016,033
+#$1,259,860,253
 mean(b2019_1w$Sales2) 
 #$223,874,815
 ggplot(b2019_2) + geom_boxplot(aes(x= Owners_Sex, y = Sales2)) + scale_y_log10()
