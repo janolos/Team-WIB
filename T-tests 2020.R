@@ -39,13 +39,13 @@ library(ggplot2)
 Sales_Race = ggplot(df2020, aes(x = Race, y = Sales2))
 Sales_Race + geom_point() + scale_y_log10() #no linear relationship
 Sales_Race + geom_boxplot() + scale_y_log10()
-ggplot(df2020_1, aes(Race))+geom_bar() 
+ggplot(df2020_1, aes(Race))+geom_bar() + ggtitle("Businesses Categorized by Race in 2020")+ ylab("Count")
 #There were more businesses that were owned by a white, Caucasian person in 2020. 
 #The second dominating race were black, African-American owners. 
 ES = ggplot(df2020, aes(x=Ethnicity, y=Sales2))
 ES + geom_point() #no linear relationship
 ES + geom_boxplot() + scale_y_log10()
-ggplot(df2020_1, aes(Ethnicity))+geom_bar()
+ggplot(df2020_1, aes(Ethnicity))+geom_bar()+ggtitle("Businesses Categorized by Ethnicity in 2020")+ylab("Count")
 #Majority of businesses were non-Hispanics and the second most owned businesses were Hispanic owners. 
 
 #Check linear regressions related to male-owned vs. female-owned vs. equally male/female-owned businesses:
