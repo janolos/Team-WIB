@@ -34,17 +34,17 @@ Determine: Which industries have the most women owned businesses?
 
 # Top 5 industry sectors in 2019:
 1. Professional, scientific, and Technical Services
-2. Health Care & Social Assistance
-3. Administrative and support and Waste Management and Remediation Services
-4. Wholesale Trade
-5. Accommadtion & Food Services
+2. Manufacturing
+3. Healthcare and Social Assistance
+4. Retail Trade
+5. Administrative and Support and Waste Management and Remediation Services
 
 # Top 5 Industry Sectors in 2018:
 1. Administrative and support and Waste Management and Remediation Services
 2. Health Care and Social Assistance
 3. Professional/Scientific/Technical Services
 4. Accommodation and Food Services
-5. Construction
+5. Retail Trade
 
 # Top 3 Industry Sectors Over Past Three Years
 1. Health Care And Social Assistance
