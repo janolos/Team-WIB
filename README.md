@@ -23,6 +23,8 @@ Workflow:
 20. Uploaded repeated ANOVA analysis ~JN
 21. Determined Top 3 Sectors for 2018-2020 ABS data ~NB
 22. Rough Draft Presentation ~LJ
+23. intention goal if had more time to research topic & how to find useful datasets: Analyze women led teams in businesses ~LJ
+
 
 Determine: Which industries have the most women owned businesses?
 # Top 5 industry sectors in 2020:
@@ -47,6 +49,6 @@ Determine: Which industries have the most women owned businesses?
 5. Retail Trade
 
 # Top 3 Industry Sectors Over Past Three Years
-1. Health Care And Social Assistance
-2.  Professional, Scientific, and Technical Services
-3.  Administrative and Support and Waste Management and Remediation Services 
+1. Accommodation and Food Services
+2. Healthcare and Social Assistance
+3. Administrative and Support and Waste Management and Remediation Services 
