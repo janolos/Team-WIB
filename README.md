@@ -47,6 +47,6 @@ Determine: Which industries have the most women owned businesses?
 5. Retail Trade
 
 # Top 3 Industry Sectors Over Past Three Years
-1. Health Care And Social Assistance
-2.  Professional, Scientific, and Technical Services
-3.  Administrative and Support and Waste Management and Remediation Services 
+1. Accommodation and Food Services
+2. Healthcare and Social Assistance
+3. Administrative and Support and Waste Management and Remediation Services 
