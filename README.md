@@ -23,7 +23,8 @@ Workflow:
 20. Uploaded repeated ANOVA analysis ~JN
 21. Determined Top 3 Sectors for 2018-2020 ABS data ~NB
 22. Rough Draft Presentation ~LJ
-23. intention goal if had more time to research topic & how to find useful datasets: Analyze women led teams in businesses ~LJ
+23. intentional goal if had more time to research topic & how to find useful datasets: Analyze women led teams in businesses ~LJ
+24. Video added to presentation ~NB
 
 
 Determine: Which industries have the most women owned businesses?
